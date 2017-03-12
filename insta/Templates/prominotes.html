@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Promissory Note Data</title>
+</head>
+<body>
+{% for  Pnotes in pnotes %}
+	<p>Event Desc: {{Pnotes.pnotes}}</p>
+	<p>Notification Day: {{Pnotes.pdate}}</p>
+	<br></br>
+{% endfor %}
+</body>
+</html>

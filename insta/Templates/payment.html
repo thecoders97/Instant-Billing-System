@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Data</title>
+</head>
+<body>
+{% for  Payment in payment %}
+	<p>Name: {{Payment.name}}</p>
+	<p>Purpose: {{Payment.purpose}}</p>
+	<p>Email: {{Payment.email}}</p>
+	<p>Amount: {{Payment.amount}}</p>
+	<p>Date : {{Payment.date}}</p>
+	<br></br>
+{% endfor %}
+</body>
+</html>
